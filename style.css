@@ -20,15 +20,15 @@
 
 #button {
     position: absolute;
-    height: 7vhx;
-    width: 18vw;
+    height: 7vh;
+    width: 13vw;
     background-color: rgb(226, 65, 37);
     color: white;
     font-size: 18px;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
     padding: 15px;
-    border: 2px solid white;
+    border: 2px solid rgb(39, 206, 53);
     cursor: pointer;
     border-radius: 15px;
     transition: all 0.3s ease;
@@ -38,12 +38,20 @@
 
 
 @media (max-width: 768px) {
+
+    #pic {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        min-height: 100vh;
+    }
     #button {
         height: 50px;
         width: 120px;
         font-size: 16px;
         padding: 10px;
-        justify-content: space-between;
+        margin-inline: auto;
     }
 }
 
@@ -54,5 +62,7 @@
         font-size: 14px;
         padding: 8px;
         border-radius: 10px;
+        margin-inline: auto;
+
     }
 }
