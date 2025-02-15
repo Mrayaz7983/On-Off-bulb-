@@ -20,18 +20,18 @@
 
 #button {
     position: absolute;
-    height: 7vh;
-    width: 13vw;
+    height: 10vh;
+    width: 16vw;
     background-color: rgb(226, 65, 37);
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
     padding: 15px;
-    border: 2px solid rgb(39, 206, 53);
+    border: 2px solid rgb(16, 20, 17);
     cursor: pointer;
     border-radius: 15px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease-in-out;
     margin-top: 20rem;
     margin-left: 20rem;
 }
