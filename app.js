@@ -9,7 +9,7 @@ function change(e) {
         button.textContent = "Turn off";
     }
     else {
-        img.src = "Off images.jpg";
+        img.src = "Off image.jpg";
         button.textContent = "Turn on";
         button.style.backgroundColor = "red";
 
